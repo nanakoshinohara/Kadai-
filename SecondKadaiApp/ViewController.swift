@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         // segueから遷移先のResultViewControllerを取得する
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
-        resultViewController.name = ""
+        resultViewController.name = textField.text!
     
     }
     
